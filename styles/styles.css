@@ -138,3 +138,33 @@ p {
     text-align: center;
   }
 }
+
+.about-section {
+  text-align: left;
+  padding: 120px 20px;
+}
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 25px;
+  font-family: var(--default-font-family);
+  text-align: left;
+  line-height: 1;
+}
+
+.about-section p {
+  text-align: center;
+}
+
+.about-me-description {
+  padding: 30px;
+}
+
+.picture-me {
+  border-radius: 30px;
+  box-shadow: 21px -8px 29px 9px rgb(66, 75, 52);
+}
