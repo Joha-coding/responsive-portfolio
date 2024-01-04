@@ -173,3 +173,7 @@ p {
   border-radius: 30px;
   box-shadow: 21px -8px 29px 9px rgb(66, 75, 52);
 }
+
+i {
+  color: var(--branding-color);
+}
