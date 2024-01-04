@@ -139,11 +139,48 @@ nav {
   margin: 0;
 }
 
-.project {
+.project,
+footer {
   background-color: var(--container-color);
   border-radius: 15px;
   padding: 50px 15px;
   margin: 20px 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+}
+
+footer h3 {
+  color: var(--light-color);
+  font-size: 35px;
+}
+footer a,
+.links-contact-page {
+  color: var(--light-color);
+  opacity: 70%;
+}
+
+footer i {
+  color: var(--branding-color);
+}
+
+.social-links {
+  line-height: 1.5;
+  font-size: 30px;
+  justify-content: space-around;
+}
+
+.email-link,
+.social-links {
+  transition: all 100ms ease-in-out;
+}
+
+.email-link:hover,
+.social-links:hover,
+.links-contact-page:hover {
+  zoom: 150%;
 }
 
 .project-description {
