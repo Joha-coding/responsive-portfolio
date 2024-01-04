@@ -56,7 +56,7 @@ nav li {
 }
 
 nav li.active a,
-nav a:hover {
+nav li a:hover {
   background-color: var(--bg-color);
   color: var(--branding-color);
   padding: 15px;
