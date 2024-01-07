@@ -180,7 +180,7 @@ footer i {
 .email-link:hover,
 .social-links:hover,
 .links-contact-page:hover {
-  zoom: 150%;
+  color: var(--branding-color);
 }
 
 .project-description {
